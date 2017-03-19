@@ -1,0 +1,29 @@
+{
+  "name": "bham_entertainment_calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "source .variables && nodemon",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5HAN7ANU/bham_entertainment_calendar.git"
+  },
+  "author": "shantanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5HAN7ANU/bham_entertainment_calendar/issues"
+  },
+  "homepage": "https://github.com/5HAN7ANU/bham_entertainment_calendar#readme",
+  "dependencies": {
+    "angular-route": "^1.6.3",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "fullcalendar": "^3.2.0",
+    "path": "^0.12.7"
+  }
+}
